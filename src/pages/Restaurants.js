@@ -15,7 +15,7 @@ const Restaurants = () => {
 
     return(
     <div className='container'>
-        <h1>Restaurants around BC</h1>
+        <h1>Rafael's Restaurants</h1>
         <button onClick={() => getData()}>Get Restaurants</button>
         {allRestaurants.map(single => {
             // return <SingleRestaurant key={single.id} name={single.name} address={single.address} photoUrl={single.photoUrl}  />
