@@ -23,7 +23,8 @@ const Restaurants = () => {
     return(
     <div className='container'>
         <h1>Rafael's Restaurants</h1>
-        {/* <button onClick={() => getData()}>Get Restaurants</button> */}
+        {/* <button onClick={() => getData()}>Get Restaurants</button> */} 
+        
         {allRestaurants.map(single => {
             // return <SingleRestaurant key={single.id} name={single.name} address={single.address} photoUrl={single.photoUrl}  />
             return <SingleRestaurant key={single.id} restaurants={single}  />
